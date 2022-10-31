@@ -1,0 +1,23 @@
+{
+  "name": "medical-office",
+  "version": "1.0.0",
+  "description": "App for creating a medical appointment",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Doddy Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
